@@ -1,0 +1,1 @@
+/Users/yasuda/dotfiles/.vim
