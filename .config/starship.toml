@@ -68,12 +68,6 @@ symbol = '☁️  '
 style = 'bold yellow'
 disabled = true
 
-[aws.region_aliases]
-
-[battery]
-threshold = 10
-style = 'red bold'
-
 [character]
 format = '$symbol '
 success_symbol = '[❯](bold green)'
