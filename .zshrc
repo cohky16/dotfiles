@@ -3,7 +3,7 @@ export GO111MODULE=on
 
 # alias
 alias yi='yarn install'
-alias yr='yarn run'
+alias y='yarn'
 alias ya='yarn add'
 alias gp='git pull origin'
 alias gc='git checkout'
