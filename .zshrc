@@ -1,5 +1,6 @@
 eval "$(starship init zsh)"
 export GO111MODULE=on
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # alias
 alias yi='yarn install'
