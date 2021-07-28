@@ -3,7 +3,7 @@ export GO111MODULE=on
 
 # alias
 alias yi='yarn install'
-alias yr='yarn run'
+alias y='yarn'
 alias ya='yarn add'
 alias gp='git pull origin'
 alias gc='git checkout'
@@ -12,4 +12,4 @@ alias gsh='git stash'
 alias gsl='git stash list'
 alias gsa='git stash apply'
 alias dcu='docker-compose up -d'
-alias dcd='docker-compose down'
+alias dcd='docker-compose down --volumes'
