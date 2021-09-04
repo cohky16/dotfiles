@@ -1,7 +1,7 @@
 #Bind Settings
-bind branch M !git pull origin master
-bind branch L !git pull origin %(branch)
 bind branch P !?git push origin %(branch)
+bind branch L !git pull origin %(branch)
+bind branch M !git pull origin master
 bind branch F @git flow feature start "%(prompt Enter branch name: )"
 bind branch H @git flow hotfix start "%(prompt Enter branch name: )"
 bind stash S ?git stash push "%(prompt Enter stash comment: )"
