@@ -1,6 +1,6 @@
 #Bind Settings
-bind branch L !git pull origin %(branch)
-bind branch P !?git push origin %(branch)
-bind branch F !git flow feature start "%(prompt Enter branch name: )"
-bind branch H !git flow hotfix start "%(prompt Enter branch name: )"
+bind branch L ?git pull origin %(branch)
+bind branch P ?git push origin %(branch)
+bind branch F @git flow feature start "%(prompt Enter branch name: )"
+bind branch H @git flow hotfix start "%(prompt Enter branch name: )"
 bind status C !git cz
