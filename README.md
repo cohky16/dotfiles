@@ -1,11 +1,18 @@
 # dotfiles
 
-### コマンド
+### 初期設定コマンド
 
 ```
 git clone https://github.com/cohky16/dotfiles.git
-bash init.sh
+bash initial.sh
 ```
+
+### 更新コマンド
+
+```
+bash deploy.sh
+```
+
 
 ### コマンド実行後にやること
 
