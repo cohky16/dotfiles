@@ -1,0 +1,1 @@
+/Users/kokiyasuda/dotfiles/.zsh
