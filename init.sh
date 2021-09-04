@@ -2,11 +2,12 @@
 
 set -eu
 
-ln -sf ~/dotfiles/.vimrc ~/.vimrc
-ln -sf ~/dotfiles/.zsh ~/.zsh
-ln -sf ~/dotfiles/.zshrc ~/.zshrc
-ln -sf ~/dotfiles/.config ~/.config
-ln -sf ~/dotfiles/.vim ~/.vim
-ln -sf ~/dotfiles/.tigrc ~/.tigrc
-ln -sf ~/dotfiles/.czrc ~/.czrc
-bash ./iTerm2/init.sh
+for f in .??*
+do
+  [[ $f == ".git" ]] && continue
+  [[ $f == ".DS_Store" ]] && continue
+  ln -sf ~/dotfiles/$f ~/
+  echo "$f"
+done
+
+ln -sf iTerm2/com.googlecode.iterm2.plist ~/Library/Preferences
