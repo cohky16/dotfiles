@@ -9,4 +9,5 @@ ln -sf ~/dotfiles/.config ~/.config
 ln -sf ~/dotfiles/.vim ~/.vim
 ln -sf ~/dotfiles/.tigrc ~/.tigrc
 ln -sf ~/dotfiles/.czrc ~/.czrc
+source ~/.zshrc
 bash ./iTerm2/init.sh

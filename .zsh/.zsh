@@ -1,1 +1,1 @@
-/Users/kokiyasuda/dotfiles/.zsh
+/Users/yasuda/dotfiles/.zsh
