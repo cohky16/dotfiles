@@ -4,7 +4,7 @@
 
 ```
 git clone https://github.com/cohky16/dotfiles.git
-bash deploy.sh
+bash init.sh
 ```
 
 ### 実行後にやること
