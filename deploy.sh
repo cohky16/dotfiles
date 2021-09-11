@@ -12,4 +12,5 @@ do
   ln -sf ~/dotfiles/$f ~/
 done
 
+git submodule update -i
 cp -f iTerm2/com.googlecode.iterm2.plist ~/Library/Preferences
