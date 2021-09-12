@@ -1,21 +1,23 @@
 # dotfiles
 
-### 初期設定コマンド
+### initial command
 
 ```
 git clone https://github.com/cohky16/dotfiles.git
 bash initial.sh
 ```
 
-### 設定更新コマンド
+### update command
 
 ```
 bash deploy.sh
 ```
 
 
-### コマンド実行後にやること
+### TODO
 
-- .awsと.sshの作成
-- Gitflowの初期設定
-  - `git flow init`でブランチ選択
+- create
+  - .aws 
+  - .ssh
+- Gitflow
+  - `git flow init`
