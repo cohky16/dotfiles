@@ -5,6 +5,9 @@ export GO111MODULE=on
 # autosuggestion
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# nodenv
+eval "$(nodenv init -)"
+
 # alias
 
 ## system
