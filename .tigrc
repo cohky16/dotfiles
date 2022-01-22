@@ -5,6 +5,6 @@ bind branch P !?git push origin %(branch)
 bind branch L !git pull origin %(branch)
 bind branch M ?git pull origin master
 bind branch F @git flow feature start "%(prompt Enter branch name: )"#"%(prompt Enter issue no: )"
-bind stash S ?git stash push "%(prompt Enter stash comment: )"
-bind stash U ?git stash push -u "%(prompt Enter stash comment: )"
+bind stash S ?git stash save "%(prompt Enter stash comment: )"
+bind stash U ?git stash save -u "%(prompt Enter stash comment: )"
 bind status C !git cz
