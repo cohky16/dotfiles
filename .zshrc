@@ -14,6 +14,7 @@ eval "$(nodenv init -)"
 alias v='vim'
 alias e='exit'
 alias sz='source ~/.zshrc'
+alias ..1='cd ../'
 alias ..2='cd ../../'
 alias ..3='cd ../../../'
 
