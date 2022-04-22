@@ -34,5 +34,6 @@ alias glm='git pull origin master'
 alias t='tig'
 
 ## docker
+alias dp='docker ps'
 alias dcu='docker-compose up -d'
 alias dcd='docker-compose down --volumes'
