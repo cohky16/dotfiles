@@ -39,8 +39,5 @@ alias t='tig'
 alias dp='docker ps'
 alias dcu='docker-compose up -d'
 alias dcd='docker-compose down --volumes'
+alias dce='docker-compose exec'
 
-## AtCoder
-alias at='atcoder-tools'
-alias att='atcoder-tools test'
-alias ats='atcoder-tools submit'

@@ -6,7 +6,6 @@ brew "awscli"
 brew "git"
 brew "git-flow"
 brew "go"
-brew "hugo"
 brew "mono", link: false
 brew "mysql"
 brew "mysql-client@5.7"
@@ -15,4 +14,3 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 brew "starship", link: false
 brew "tig"
-brew "sanemat/font/ricty"
