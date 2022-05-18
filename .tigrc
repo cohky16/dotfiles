@@ -8,3 +8,4 @@ bind branch F @git flow feature start "%(prompt Enter branch name: )"
 bind stash S ?git stash save "%(prompt Enter stash comment: )"
 bind stash U ?git stash save -u "%(prompt Enter stash comment: )"
 bind status C !git cz
+bind status A @git add .
