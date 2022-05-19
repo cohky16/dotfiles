@@ -1,7 +1,7 @@
 #Bind Settings
 bind branch B >@git checkout -b feature/"%(prompt Enter branch name: )"
 bind branch H >@git checkout -b hotfix/"%(prompt Enter branch name: )"
-bind branch P >?<git push origin %(branch)
+bind branch P ?<git push origin %(branch)
 bind branch L >git pull origin %(branch)
 bind branch M ?git pull origin master
 bind branch F @git flow feature start "%(prompt Enter branch name: )"
