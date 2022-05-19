@@ -1,11 +1,14 @@
 #Bind Settings
-bind branch B @git checkout -b feature/"%(prompt Enter branch name: )"
-bind branch H @git checkout -b hotfix/"%(prompt Enter branch name: )"
-bind branch P !?git push origin %(branch)
-bind branch L !git pull origin %(branch)
+bind branch B >@git checkout -b feature/"%(prompt Enter branch name: )"
+bind branch H >@git checkout -b hotfix/"%(prompt Enter branch name: )"
+bind branch P >?git push origin %(branch)
+bind branch L >git pull origin %(branch)
 bind branch M ?git pull origin master
 bind branch F @git flow feature start "%(prompt Enter branch name: )"
 bind stash S ?git stash save "%(prompt Enter stash comment: )"
 bind stash U ?git stash save -u "%(prompt Enter stash comment: )"
-bind status C !git cz
+bind status C >git cz
 bind status A @git add .
+bind generic D >git difftool --tool=vimdiff --no-prompt
+
+
