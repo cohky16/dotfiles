@@ -33,6 +33,7 @@ alias gc='git checkout'
 alias gp='git push origin $(git rev-parse --abbrev-ref HEAD)'
 alias gl='git pull origin $(git rev-parse --abbrev-ref HEAD)'
 alias glm='git pull origin master'
+alias gf='git fetch'
 alias t='tig'
 
 ## docker
