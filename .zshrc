@@ -46,5 +46,6 @@ alias dce='docker-compose exec'
 alias at='(){mkdir $1 && cd $1 && oj-prepare https://atcoder.jp/contests/$1}'
 alias att='oj t -c "python3 main.py"'
 alias atte='oj t -e -c "python3 main.py"'
-alias ats='(){oj s -c $1 main.py}'
+alias atg='oj generate-input "python3 generate.py"'
+alias ats='(){oj s $1 main.py}'
 
