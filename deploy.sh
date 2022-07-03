@@ -14,4 +14,4 @@ done
 
 git submodule update -i
 cp -f iTerm2/com.googlecode.iterm2.plist ~/Library/Preferences
-cp -rf .vim/colors ~/.vim
+cp -rf .vim/colors ~/.vim/colors
