@@ -8,9 +8,6 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # nodenv
 eval "$(nodenv init -)"
 
-# asdf
-echo -e "\n. $(brew --prefix asdf)/asdf.sh" >> ${ZDOTDIR:-~}/.zshrc
-
 # alias
 
 ## system
