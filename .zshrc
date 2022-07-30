@@ -36,6 +36,7 @@ alias gl='git pull origin $(git rev-parse --abbrev-ref HEAD)'
 alias glm='git pull origin master'
 alias gf='git fetch'
 alias t='tig'
+alias gm='git mergetool -t vimdiff'
 
 ## docker
 alias dp='docker ps'
