@@ -8,6 +8,7 @@ bind branch F @git flow feature start "%(prompt Enter branch name: )"
 bind stash S ?git stash save "%(prompt Enter stash comment: )"
 bind stash U ?git stash save -u "%(prompt Enter stash comment: )"
 bind status C >git cz
+bind status N >npm run commit
 bind status A @git add .
 bind generic D !git difftool --tool=vimdiff --no-prompt
 bind generic M !git mergetool --tool=vimdiff --no-prompt

@@ -33,7 +33,7 @@ alias gs='git status'
 alias gc='git checkout'
 alias gp='git push origin $(git rev-parse --abbrev-ref HEAD)'
 alias gl='git pull origin $(git rev-parse --abbrev-ref HEAD)'
-alias glm='git pull origin master'
+alias glm='git pull origin master 2>/dev/null || git pull origin main 2>/dev/null'
 alias gf='git fetch'
 alias t='tig'
 alias gm='git mergetool -t vimdiff'
@@ -51,3 +51,4 @@ alias atte='oj t -e 1e-6 -c "python3 main.py"'
 alias atg='oj generate-input "python3 generate.py"'
 alias ats='oj s -y --guess-python-interpreter pypy main.py'
 
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
