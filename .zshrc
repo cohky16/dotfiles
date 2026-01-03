@@ -1,0 +1,74 @@
+# starship
+eval "$(starship init zsh)"
+export GO111MODULE=on
+
+# autosuggestion
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# nodenv
+eval "$(nodenv init -)"
+
+# alias
+
+## system
+alias v='vim'
+alias e='exit'
+alias sz='source ~/.zshrc'
+alias ..1='cd ../'
+alias ..2='cd ../../'
+alias ..3='cd ../../../'
+alias c='code .'
+alias i='idea .'
+
+## package 
+alias y='yarn'
+alias yi='yarn install'
+alias ya='yarn add'
+alias n='npm'
+alias ni='npm install'
+
+## git
+alias g='git'
+alias gs='git status'
+alias gc='git checkout'
+alias gp='git push origin $(git rev-parse --abbrev-ref HEAD)'
+alias gl='git pull origin $(git rev-parse --abbrev-ref HEAD)'
+alias glm='git pull origin master'
+alias gf='git fetch'
+alias t='tig'
+alias gm='git mergetool -t vimdiff'
+
+## docker
+alias dp='docker ps'
+alias dcu='docker-compose up -d'
+alias dcd='docker-compose down --volumes'
+alias dce='docker exec -it'
+
+## atcoder
+alias at='(){mkdir $1 && cd $1 && oj-prepare https://atcoder.jp/contests/$1}'
+alias att='oj t -c "python3 main.py"'
+alias atte='oj t -e 1e-6 -c "python3 main.py"'
+alias atg='oj generate-input "python3 generate.py"'
+alias ats='oj s -y --guess-python-interpreter pypy main.py'
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/kokiyasuda/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/kokiyasuda/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/kokiyasuda/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/kokiyasuda/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+eval "$(/opt/homebrew/bin/mise activate zsh)"
+
+# Added by Antigravity
+export PATH="/Users/kokiyasuda/.antigravity/antigravity/bin:$PATH"
+eval "$(mise activate zsh)"
