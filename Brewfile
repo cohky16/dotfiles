@@ -14,3 +14,4 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 brew "starship", link: false
 brew "tig"
+brew "nodenv"
