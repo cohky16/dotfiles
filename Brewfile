@@ -8,7 +8,7 @@ brew "git-flow"
 brew "go"
 brew "mono", link: false
 brew "mysql"
-brew "mysql-client@5.7"
+brew "mysql-client@8.4"
 brew "node", link: false
 brew "pyenv"
 brew "pyenv-virtualenv"

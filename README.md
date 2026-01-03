@@ -4,7 +4,8 @@
 
 ```
 git clone https://github.com/cohky16/dotfiles.git
-bash initial.sh
+brew install chezmoi
+chezmoi init --apply https://github.com/cohky16/dotfiles.git
 ```
 
 ### update command
