@@ -11,7 +11,7 @@ chezmoi init --apply https://github.com/cohky16/dotfiles.git
 ### update command
 
 ```
-bash deploy.sh
+chezmoi apply
 ```
 
 
