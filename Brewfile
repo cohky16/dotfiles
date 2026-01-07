@@ -1,5 +1,3 @@
-tap "homebrew/bundle"
-tap "homebrew/core"
 tap "sanemat/font"
 brew "automake"
 brew "awscli"
